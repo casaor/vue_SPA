@@ -30,7 +30,7 @@ const paths = [
         path: '/clients/:id',
         name: 'clients',
         component: Clients
-    }
+    },
 ];
 
 const router = new VueRouter (

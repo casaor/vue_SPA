@@ -15,8 +15,9 @@ import Navbar from './views/Navbar.vue'
 
 export default {
   name: 'App',
-  components: {
-    Navbar
+
+components: {
+    Navbar,
   }
 }
 </script>

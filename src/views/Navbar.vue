@@ -15,10 +15,10 @@
                 <router-link to="/proveidors" class="nav-link">Proveïdors</router-link>
               </li>
               <li>
-                <router-link to="/magatzem" class="nav-link">Magatzem</router-link>
+                <router-link to="/botiga" class="nav-link">Botiga</router-link>
               </li>
               <li>
-                <router-link to="/botiga" class="nav-link">Botiga</router-link>
+                <router-link to="/magatzem" class="nav-link">Magatzem</router-link>
               </li>
             </ul>
           </div>
@@ -26,8 +26,22 @@
       </nav> 
 </template>
 
+<script>
+
+export default {
+  props: ['currentComponent']
+}
+
+</script>
+
+
+
 <style>
 .navbar {
     width: 100% !important;
 } 
+.dropdown-menu {
+  right:0;
+  position: absolute;
+}
 </style>
